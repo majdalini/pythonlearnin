@@ -14,4 +14,5 @@ class Kocka:
         print("Nelze mít více než 9 životů")
  def uber_zivot(self, uber)
     self.uber = uber
+    jmeno.uber_zivot()
  def je_ziva(self):
