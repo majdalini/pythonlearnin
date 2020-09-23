@@ -15,5 +15,6 @@ class Kocka:
   def uber_zivot(self, uber)
     self.uber = uber
     jmeno.uber_zivot()
-  def je_ziva(self):
- 
+  def je_ziva(self): 
+micka = Kocka('Micka')
+micka.zamnoukej()
