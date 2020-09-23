@@ -12,7 +12,8 @@ class Kocka:
         print("Kočka je mrtvá")
       if zivot is >9:
         print("Nelze mít více než 9 životů")
- def uber_zivot(self, uber)
+  def uber_zivot(self, uber)
     self.uber = uber
     jmeno.uber_zivot()
- def je_ziva(self):
+  def je_ziva(self):
+ 
