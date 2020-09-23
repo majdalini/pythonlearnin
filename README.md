@@ -1,20 +1,24 @@
 # pythonlearnin
 # Python learning on a public computer 
+# Init funkce nemusí brát jako parametr počet životů, ten je pokaždé 9 
 class Kocka:
-  def __init__(self, jmeno):
-    self.jmeno = jmeno
+  def __init__(self):
+    self.pocet_zivotu = 9 
   def zamnoukej(self):
-    print("{} Mnau".format(self.jmeno))
-  def zivoty(self, zivot):
-    self.zivot = zivot
-    zivot = 9 - self.uber
-      if zivot is <0:
-        print("Kočka je mrtvá")
-      if zivot is >9:
-        print("Nelze mít více než 9 životů")
-  def uber_zivot(self, uber)
-    self.uber = uber
-    jmeno.uber_zivot()
+    print("Mnau, mnau")
   def je_ziva(self): 
-micka = Kocka('Micka')
-micka.zamnoukej()
+    return self.pocet_zivotu > 0 
+  def uber_zivot(self)
+    if not self.je_ziva():
+      print("Nemůžeš zabít už mrtvou kočku")
+    else: 
+      self.pocet_zivotu -= 1
+  def snez(self, jidlo) 
+    if not self.je_ziva():
+      print("Je zbytečné krmit už mrtvou kočku")
+      return
+    if jidlo == "ryba" and self.pocet_zivotu <9:
+      self.pocet_zivotu += 1
+      print("Kočka spapala rybu a tím se jí obnovil jeden život")
+    else: 
+      print("Kočka se krmí")
